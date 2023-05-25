@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrinksController">
+   <children>
+      <ImageView fitHeight="116.0" fitWidth="135.0" layoutX="32.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/IceTea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="135.0" layoutX="233.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/CalamansiTea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="135.0" layoutX="454.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/LemonTea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="135.0" layoutX="39.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/OrangeTea.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="135.0" layoutX="428.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/mangoTea.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="64.0" layoutY="175.0" mnemonicParsing="false" onAction="#showInfo" text="IceTea" />
+      <Button fx:id="btn4" layoutX="64.0" layoutY="351.0" mnemonicParsing="false" onAction="#showInfo" text="Orange" />
+      <Button fx:id="btn3" layoutX="265.0" layoutY="258.0" mnemonicParsing="false" onAction="#showInfo" text="Calamansi" />
+      <Button fx:id="btn2" layoutX="462.0" layoutY="175.0" mnemonicParsing="false" onAction="#showInfo" text="Lemon" />
+      <Button fx:id="btn5" layoutX="462.0" layoutY="351.0" mnemonicParsing="false" onAction="#showInfo" text="Mango" />
+   </children>
+</AnchorPane>
