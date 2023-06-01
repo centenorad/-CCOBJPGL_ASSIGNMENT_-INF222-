@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#gotoreceipt" prefHeight="400.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label layoutX="18.0" layoutY="14.0" text="OFFICIAL RECEIPT">
+         <font>
+            <Font name="Century Schoolbook" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="133.0" onDragDetected="#gotoReceipt" prefHeight="17.0" prefWidth="84.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="16.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/barcode.gif" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#77c0cd" height="306.0" layoutX="15.0" layoutY="42.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ImageView fitHeight="269.0" fitWidth="200.0" layoutX="15.0" layoutY="42.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="269.0" fitWidth="200.0" layoutX="15.0" layoutY="122.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="269.0" fitWidth="200.0" layoutX="15.0" layoutY="202.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="215.0" layoutX="16.0" layoutY="282.0" opacity="0.29" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
